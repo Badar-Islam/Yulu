@@ -49,7 +49,29 @@ Indian market?
 
 ## Tasks Performed:
 
-- Load the dataset and performed basic EDA to understand its characterstics and structure.
-- Performed data Cleaning like missing value handling, checking for duplicate values, fixing Structural Errors, handling outliers.
-- Performed non graphical analysis
+- Loaded the dataset and performed basic EDA to understand its characterstics and structure.
+- Performed data Cleaning like missing value handling, checking for duplicate values, fixing Structural Errors, handling outliers etc.
+- Performed non graphical analysis such as descriptive analysis, frequency distribution, cross-tabualtion, correlation analysis etc.
+- Visualizations :
+    - Uni-Variate Analysis (distribution plots of all the continuous variable(s) barplots/countplots of all the categorical variables)
+    - Bivariate (Relationships between important variables such as workday and count, season and count, weather and count)
+- For continuous variable(s): Distplot, countplot, histogram for univariate analysis
+- For categorical variable(s): Boxplot
+- For correlation: Heatmaps, Pairplots
+- Performed approriate testing on following:
+  - Working Day has effect on number of electric cycles rented
+  - No. of cycles rented similar or different in different seasons
+  - No. of cycles rented similar or different in different weather
+  - Weather is dependent on season
+- Performed Hypothesis Testing:
+  - Setup Null Hypothesis (H0)
+  - State the alternate hypothesis (H1)
+  - 2-Sample T-Test to check if Working Day has an effect on the number of electric cycles rented
+  - ANOVA to check if No. of cycles rented is similar or different in different weather and/or season
+  - Chi-square test to check if Weather is dependent on the season
+- Checked assumptions of the test like:
+  - Normality using Histogram, Q-Q plot, skewness or Shapiro-wilk test and
+  - Equality Variance using levene’s test.
+- Based on observation provided business insights and recommendations.
+
 
