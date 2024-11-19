@@ -8,7 +8,7 @@ However, recent revenue setbacks have prompted Yulu to seek the expertise of a c
 company to delve into the factors influencing the demand for their shared electric cycles,
 specifically in the Indian market.
 
-## What is expected?
+## Objective:
 
 The company wants to know:
 - Which variables are significant in predicting the demand for shared electric cycles in the
@@ -39,10 +39,17 @@ Indian market?
 |3	| Light Snow, Light Rain + Thunderstorm + Scattered clouds, Light Rain + Scattered clouds|
 |4	| Heavy Rain + Ice Pallets + Thunderstorm + Mist, Snow + Fog|
 
-## Concepts used:
+## Concepts Used:
 
 - Uni-Variate Analysis
 - Bi-Variate Analysis
 - 2-Sample T-test : Testing for differences across population
 - ANOVA
 - Chi-Square
+
+## Tasks Performed:
+
+- Load the dataset and performed basic EDA to understand its characterstics and structure.
+- Performed data Cleaning like missing value handling, checking for duplicate values, fixing Structural Errors, handling outliers.
+- Performed non graphical analysis
+
